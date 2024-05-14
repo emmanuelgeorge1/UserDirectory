@@ -1,6 +1,6 @@
 import React from 'react';
-import DrawerNavigator from './navigation/DrawerNavigatior';
-import { makeServer } from '../mocks/server';
+import { makeServer } from './mocks/server';
+import DrawerNavigator from './app/navigation/DrawerNavigatior';
 
 if (process.env.NODE_ENV === 'development') {
   makeServer({ environment: "development" });
